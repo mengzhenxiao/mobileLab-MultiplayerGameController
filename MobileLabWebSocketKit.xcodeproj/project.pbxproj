@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EF721CEF9A5D53408F61CDC /* Pods_MobileLabWebSocketKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4E4FC41C5245B3CD7E6534 /* Pods_MobileLabWebSocketKit.framework */; };
+		6A5DA281203E06EC0092170D /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA277203E06EC0092170D /* up.png */; };
+		6A5DA282203E06EC0092170D /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA278203E06EC0092170D /* down.png */; };
+		6A5DA283203E06EC0092170D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA279203E06EC0092170D /* Assets.xcassets */; };
+		6A5DA284203E06EC0092170D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA27A203E06EC0092170D /* LaunchScreen.storyboard */; };
+		6A5DA285203E06EC0092170D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA27C203E06EC0092170D /* Main.storyboard */; };
+		6A5DA286203E06EC0092170D /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA27E203E06EC0092170D /* left.png */; };
+		6A5DA288203E06EC0092170D /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5DA280203E06EC0092170D /* right.png */; };
+		9E8784AB203BF53300480EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8784AA203BF53300480EC3 /* AppDelegate.swift */; };
+		9E8784AD203BF53300480EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8784AC203BF53300480EC3 /* ViewController.swift */; };
+		C514976A222C63A90067610D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = C5149769222C63A80067610D /* button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2795774AEFED2F2367C4CB1F /* Pods-MobileLabWebSocketKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileLabWebSocketKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileLabWebSocketKit/Pods-MobileLabWebSocketKit.release.xcconfig"; sourceTree = "<group>"; };
+		46C2E01B9E82F0FD06058279 /* Pods-MobileLabWebSocketKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileLabWebSocketKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileLabWebSocketKit/Pods-MobileLabWebSocketKit.debug.xcconfig"; sourceTree = "<group>"; };
+		6A5DA277203E06EC0092170D /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		6A5DA278203E06EC0092170D /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		6A5DA279203E06EC0092170D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A5DA27B203E06EC0092170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A5DA27D203E06EC0092170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A5DA27E203E06EC0092170D /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		6A5DA27F203E06EC0092170D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5DA280203E06EC0092170D /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		9E8784A7203BF53300480EC3 /* MobileLabWebSocketKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLabWebSocketKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8784AA203BF53300480EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E8784AC203BF53300480EC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5149769222C63A80067610D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../../../../Documents/button.png; sourceTree = "<group>"; };
+		ED4E4FC41C5245B3CD7E6534 /* Pods_MobileLabWebSocketKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileLabWebSocketKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E8784A4203BF53300480EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF721CEF9A5D53408F61CDC /* Pods_MobileLabWebSocketKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A5DA276203E06EC0092170D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5149769222C63A80067610D /* button.png */,
+				6A5DA27C203E06EC0092170D /* Main.storyboard */,
+				6A5DA27A203E06EC0092170D /* LaunchScreen.storyboard */,
+				6A5DA279203E06EC0092170D /* Assets.xcassets */,
+				6A5DA27F203E06EC0092170D /* Info.plist */,
+				6A5DA277203E06EC0092170D /* up.png */,
+				6A5DA278203E06EC0092170D /* down.png */,
+				6A5DA27E203E06EC0092170D /* left.png */,
+				6A5DA280203E06EC0092170D /* right.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9E87849E203BF53300480EC3 = {
+			isa = PBXGroup;
+			children = (
+				9E8784A9203BF53300480EC3 /* MobileLabWebSocketKit */,
+				9E8784A8203BF53300480EC3 /* Products */,
+				E1BD8FFCCCC23BB4FC47E73E /* Pods */,
+				F8FDC0E824E98EC06B1BBBB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E8784A8203BF53300480EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E8784A7203BF53300480EC3 /* MobileLabWebSocketKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E8784A9203BF53300480EC3 /* MobileLabWebSocketKit */ = {
+			isa = PBXGroup;
+			children = (
+				9E8784AA203BF53300480EC3 /* AppDelegate.swift */,
+				9E8784AC203BF53300480EC3 /* ViewController.swift */,
+				6A5DA276203E06EC0092170D /* Resources */,
+			);
+			path = MobileLabWebSocketKit;
+			sourceTree = "<group>";
+		};
+		E1BD8FFCCCC23BB4FC47E73E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46C2E01B9E82F0FD06058279 /* Pods-MobileLabWebSocketKit.debug.xcconfig */,
+				2795774AEFED2F2367C4CB1F /* Pods-MobileLabWebSocketKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8FDC0E824E98EC06B1BBBB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED4E4FC41C5245B3CD7E6534 /* Pods_MobileLabWebSocketKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E8784A6203BF53300480EC3 /* MobileLabWebSocketKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8784B9203BF53300480EC3 /* Build configuration list for PBXNativeTarget "MobileLabWebSocketKit" */;
+			buildPhases = (
+				814F5A2BE83BD715868E39C2 /* [CP] Check Pods Manifest.lock */,
+				9E8784A3203BF53300480EC3 /* Sources */,
+				9E8784A4203BF53300480EC3 /* Frameworks */,
+				9E8784A5203BF53300480EC3 /* Resources */,
+				801A9E0FC01FFF1B4461EAA7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileLabWebSocketKit;
+			productName = "mobile-lab-websockets";
+			productReference = 9E8784A7203BF53300480EC3 /* MobileLabWebSocketKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E87849F203BF53300480EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sebastian Buys";
+				TargetAttributes = {
+					9E8784A6203BF53300480EC3 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9E8784A2203BF53300480EC3 /* Build configuration list for PBXProject "MobileLabWebSocketKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E87849E203BF53300480EC3;
+			productRefGroup = 9E8784A8203BF53300480EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E8784A6203BF53300480EC3 /* MobileLabWebSocketKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E8784A5203BF53300480EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5DA281203E06EC0092170D /* up.png in Resources */,
+				C514976A222C63A90067610D /* button.png in Resources */,
+				6A5DA285203E06EC0092170D /* Main.storyboard in Resources */,
+				6A5DA288203E06EC0092170D /* right.png in Resources */,
+				6A5DA286203E06EC0092170D /* left.png in Resources */,
+				6A5DA284203E06EC0092170D /* LaunchScreen.storyboard in Resources */,
+				6A5DA283203E06EC0092170D /* Assets.xcassets in Resources */,
+				6A5DA282203E06EC0092170D /* down.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		801A9E0FC01FFF1B4461EAA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileLabWebSocketKit/Pods-MobileLabWebSocketKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileLabWebSocketKit/Pods-MobileLabWebSocketKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814F5A2BE83BD715868E39C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileLabWebSocketKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E8784A3203BF53300480EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8784AD203BF53300480EC3 /* ViewController.swift in Sources */,
+				9E8784AB203BF53300480EC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A5DA27A203E06EC0092170D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5DA27B203E06EC0092170D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A5DA27C203E06EC0092170D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5DA27D203E06EC0092170D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E8784B7203BF53300480EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E8784B8203BF53300480EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E8784BA203BF53300480EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C2E01B9E82F0FD06058279 /* Pods-MobileLabWebSocketKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S784Y4953R;
+				INFOPLIST_FILE = MobileLabWebSocketKit/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengzhen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E8784BB203BF53300480EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2795774AEFED2F2367C4CB1F /* Pods-MobileLabWebSocketKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S784Y4953R;
+				INFOPLIST_FILE = MobileLabWebSocketKit/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengzhen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E8784A2203BF53300480EC3 /* Build configuration list for PBXProject "MobileLabWebSocketKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8784B7203BF53300480EC3 /* Debug */,
+				9E8784B8203BF53300480EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8784B9203BF53300480EC3 /* Build configuration list for PBXNativeTarget "MobileLabWebSocketKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8784BA203BF53300480EC3 /* Debug */,
+				9E8784BB203BF53300480EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E87849F203BF53300480EC3 /* Project object */;
+}
